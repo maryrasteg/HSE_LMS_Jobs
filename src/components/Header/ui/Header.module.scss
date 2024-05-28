@@ -1,0 +1,59 @@
+@import "@styles/variables";
+
+.header{
+    display: flex;
+    padding: 22px 32px;
+    background: $bg_island;
+    box-shadow: 0px 12px 12px 0px rgba(0, 0, 0, 0.05);
+    justify-content: space-between;
+    width: 100%;
+}
+
+.side_content{
+    display: flex;
+    gap: 42px;
+    align-items: center;
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+}
+
+.links{
+    display: flex;
+    gap: 22px;
+    
+    .active{
+        font-weight: 600;    
+    }
+}
+
+.additional{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+
+    img{
+        height: 24px;
+        width: auto;
+    }
+}
+
+.notifications_wrapper{
+    position: relative;
+}
+
+.notifications{
+    display: flex;
+    width: 22px;
+    height: 22px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 11px;
+    color: #FFFFFF;
+    background: red;
+    position: absolute;
+    right: -16px;
+    top: -16px;
+}
